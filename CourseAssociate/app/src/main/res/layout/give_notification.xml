@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff3b9a5a"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Notification"
+            android:textColor="@color/White"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Code"
+            android:textColor="@color/Black"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spCourseList"
+            android:layout_weight="4"
+            >
+
+        </Spinner>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#F0F0F0"
+        android:gravity="top"
+        android:minLines="10"
+        android:inputType="textMultiLine"
+        android:id="@+id/etNotificationText"
+        android:scrollbars="vertical"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:id="@+id/btCancel"
+            android:textColor="@color/White"
+            android:onClick="cancelNotify"
+            android:background="#ff3b9a5a"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notify"
+            android:layout_margin="3dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:id="@+id/btNotify"
+            android:textColor="@color/White"
+            android:background="#ff3b9a5a"/>
+    </LinearLayout>
+
+</LinearLayout>

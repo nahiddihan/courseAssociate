@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Course Result"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:textColor="@color/White"
+    android:background="#ff3b9a5a"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Credit Earned : 25.5"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:id="@+id/tvCreditEarned"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="CGPA: 3.75"
+            android:paddingRight="10dp"
+            android:textSize="18sp"
+            android:id="@+id/tvCGPA"/>
+        </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="9"
+        android:background="#ff3b9a5a">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3b9a5a"
+            android:layout_weight="3"
+            android:text="Course Code"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginRight="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3b9a5a"
+            android:layout_weight="3"
+            android:text="Credit"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/White"
+            android:layout_marginRight="2dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff3b9a5a"
+            android:layout_weight="3"
+            android:text="Grade Point"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/White"/>
+
+        </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvResult">
+
+        </ListView>
+</LinearLayout>

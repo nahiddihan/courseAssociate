@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff3b9a5a">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Class Test"
+            android:layout_gravity="center"
+            android:textColor="@color/White"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:id="@+id/tvNewClassTestTitle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Code"
+            android:textColor="@color/Black"
+            android:layout_weight="6"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spClassTestCourseList"
+            android:layout_weight="4"
+            >
+
+            </Spinner>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exam Date"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:id="@+id/btCTDate"
+        android:onClick="getDate"
+        android:textColor="@color/White"
+        android:background="#ff3b9a5a"
+        android:layout_margin="3dp"
+        />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Exam Time"
+    android:layout_weight="5"
+    android:gravity="center"
+    android:id="@+id/btCTTime"
+    android:onClick="getTime"
+    android:textColor="@color/White"
+    android:background="#ff3b9a5a"
+        android:layout_margin="3dp"
+
+        />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:inputType="textMultiLine"
+        android:minLines="10"
+        android:layout_margin="10dp"
+        android:text="Topics:"
+        android:gravity="start"
+        android:textColor="@color/Black"
+        android:id="@+id/etCTTopics"
+        android:scrollbars="vertical"
+
+        android:background="#08c1c1c1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:id="@+id/btCancel"
+            android:textColor="@color/White"
+            android:onClick="cancelButtonAction"
+            android:background="#ff3b9a5a"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:layout_margin="3dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:id="@+id/btDone"
+            android:textColor="@color/White"
+            android:onClick="saveNewClassTest"
+            android:background="#ff3b9a5a"/>
+    </LinearLayout>
+</LinearLayout>

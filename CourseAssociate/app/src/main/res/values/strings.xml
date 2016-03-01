@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Course Associate</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logOut">Log Out</string>
+    <string name="Help">Help</string>
+    <string name="About">About</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ff3b9a5a">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo3"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="0dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Associate"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:id="@+id/tvName"
+        android:textColor="#ffffffff" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#fdededed"
+            android:layout_marginBottom="10dp"
+            android:hint="   User Name"
+            android:id="@+id/etEmail"
+            android:textColorHint="#8df0f0f0"
+            android:drawableLeft="@drawable/user7"
+            android:background="#f855c387"
+            android:padding="5dp"
+            android:backgroundTint="#58abaffc"
+            android:singleLine="true"
+            android:inputType="text"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#fdededed"
+            android:padding="5dp"
+            android:hint=" Password"
+            android:id="@+id/etPassword"
+            android:textColorHint="#8df0f0f0"
+            android:layout_marginBottom="20dp"
+            android:drawableLeft="@drawable/password_final"
+            android:backgroundTint="#58abaffc"
+            android:background="#f84bc379"
+            android:inputType="textPassword|textWebPassword"
+            android:singleLine="true"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" LOG IN "
+            android:id="@+id/btLogin"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#E0E0E0"
+            android:textSize="20sp"
+            android:textColor="#ff050505"
+
+            />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invalid Email or Password"
+        android:id="@+id/tvLogError"
+        android:textSize="15sp"
+        android:textColor="@color/Red"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ff3b9a5a"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Personal Information"
+        android:textColor="@color/White"
+        android:textSize="25sp"
+       android:layout_gravity="center"
+        android:gravity="center"
+        />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Noakhali Science and technology University"
+        android:id="@+id/tvStudentVarsityName"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingTop="3dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+
+        />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logonstu"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/ivStudentVarsityImage"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nahidul Islam"
+                android:textSize="25sp"
+                android:textColor="#ff3b9a5a"
+                android:id="@+id/tvStudentName"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASH1001015M"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:paddingBottom="3dp"
+                android:id="@+id/tvRoll"
+                />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="18sp"
+                android:id="@+id/tvYear"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="2"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:id="@+id/tvTerm"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="2009-10"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:id="@+id/tvSession"
+            />
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nahidcste@gmail.com"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:id="@+id/tvStudentEmail"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Computer Science and Telecommunication Engineering"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvStudentDepartment"
+        android:textColor="#000"
+        />
+
+</LinearLayout>

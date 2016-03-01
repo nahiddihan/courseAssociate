@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ff3b9a5a"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exam Routine"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/White"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ff3b9a5a"
+            android:weightSum="80"
+           >
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="9"
+            android:layout_weight="10"
+            android:layout_marginBottom="2dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Exam Date"
+                android:layout_weight="3"
+                android:layout_marginRight="2dp"
+                android:background="@color/White"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="09 A.M.-01 P.M"
+                android:layout_weight="3"
+                android:layout_marginRight="2dp"
+                android:background="@color/White"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="02 P.M.-06 P.M"
+                android:layout_weight="3"
+                android:layout_marginRight="2dp"
+                android:background="@color/White"
+                android:textColor="@color/Black"
+                android:textSize="18sp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="9"
+                android:layout_weight="10"
+                android:layout_marginBottom="2dp"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateOne"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateOneAM"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateOnePM"
+                />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="9"
+                android:layout_weight="10"
+                android:layout_marginBottom="2dp"
+               >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:id="@+id/tvDAteTwo"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDAteTwoAM"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateTwoPM"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="9"
+                android:layout_weight="10"
+                android:layout_marginBottom="2dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateThree"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateThreeAM"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateThreePM"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="9"
+                android:layout_weight="10"
+                android:layout_marginBottom="2dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateFour"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateFourAM"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateFourPM"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="9"
+                android:layout_weight="10"
+                android:layout_marginBottom="2dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateFive"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateFiveAM"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateFivePM"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="9"
+                android:layout_weight="10"
+                android:layout_marginBottom="2dp"
+               >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateSix"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateSixAM"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateSixPM"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="9"
+                android:layout_weight="10"
+                android:layout_marginBottom="2dp"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateSeven"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateSevenAM"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="-"
+                    android:layout_weight="3"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/White"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:id="@+id/tvDateSevenPM"
+                   />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

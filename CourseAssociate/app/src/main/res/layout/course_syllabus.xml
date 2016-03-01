@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ff3b9a5a"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Syllabus"
+            android:textColor="@color/White"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:id="@+id/tvSyllabusCourseCode"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:textColor="@color/Black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tvSyllabusCourseTitle"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/Black"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Snow">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text=""
+            android:layout_weight="7"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tvSyllabusCourseCredit"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text=""
+            android:layout_weight="3"
+            android:id="@+id/tvSyllabusCreditHour"
+            />
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:id="@+id/tvSyllabusText"
+        android:textColor="@color/Black"
+        android:text=""
+        android:textSize="14sp"
+        />
+</LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
